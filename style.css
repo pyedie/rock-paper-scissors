@@ -1,0 +1,131 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* ADAPT FOR MOBILE */
+
+@media screen and (max-width: 540px) {
+  .choice {
+    border: 5px solid white;
+    width: 80vw;
+    height: 20vw;
+    border-radius: 9vw;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 15vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+  }
+  .choice p {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 8vw;
+  }
+  
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .choice {
+    border: 5px solid white;
+    width: 40vw;
+    height: 8vw;
+    border-radius: 4.5vw;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 15vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+  }
+  .choice p {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .choice {
+    border: 5px solid white;
+    width: 40vw;
+    height: 8vw;
+    border-radius: 4.5vw;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: 13vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+  }
+  .choice p {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 5vw;
+  }  
+}
+
+/* SITE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #14213d;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #14213d;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#title {
+  font-size: 40px;
+  color: white;
+  padding-top: 5vh;
+}
+
+#title > p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.choices {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: #e63946;
+}
